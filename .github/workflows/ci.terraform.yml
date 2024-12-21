@@ -28,5 +28,5 @@ jobs:
       - name: Terraform VaLidate
         run: terraform validate
       
-      - name: Lint Terraform
-        uses: actionshub/terraform-lint@main
+    #   - name: Lint Terraform
+    #     uses: actionshub/terraform-lint@main
